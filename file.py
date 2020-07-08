@@ -86,7 +86,7 @@ driver.find_element_by_xpath("//*[@id='loginButton']").click()
 driver.find_element_by_xpath("//*[@id='googlebutton']").click()
 driver.find_element_by_xpath("//*[@id='identifierId']").send_keys("mayank18049@iiitd.ac.in")
 driver.find_element_by_xpath("//*[@id='identifierNext']/content/span").click()
-#driver.find_element_by_xpath("//*[@id='password']/div[1]/div/div[1]/input").send_keys("111tDmt2022")
+#driver.find_element_by_xpath("//*[@id='password']/div[1]/div/div[1]/input").send_keys("password")
 
 driver.implicitly_wait(10)
 driver.find_element_by_name("password").send_keys("this will be password and changed for reasons xD")
